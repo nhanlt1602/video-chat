@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Call from './components/Call';
 import ChannelForm from './components/ChannelForm';
 
 class App extends Component {
@@ -7,6 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <ChannelForm />
+        <Call />
       </div>
     );
   }
